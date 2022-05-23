@@ -33,7 +33,7 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 ### "Modern" reproduction
 
-The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, a `Modern ` branch is planned.
+The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, a `Modern` branch is planned.
 
 
 

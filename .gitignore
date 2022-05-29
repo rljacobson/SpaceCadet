@@ -11,3 +11,6 @@
 # *.png
 # *.jpg
 *.afphoto
+
+# macOS
+.DS_Store

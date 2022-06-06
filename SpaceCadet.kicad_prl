@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -15,7 +15,7 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": false,
@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -59,10 +58,11 @@
       32,
       33,
       34,
-      35
+      35,
+      36
     ],
-    "visible_layers": "ff812f0_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ff812ff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "SpaceCadet.kicad_prl",

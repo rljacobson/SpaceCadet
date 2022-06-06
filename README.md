@@ -14,11 +14,11 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 
 
-## Remaining work to do
+## Branches
 
-* [ ] Jumpers on the front of the PCB
-* [ ] Vias
-* [ ] "Modern" version
+* **Main:** Traces are represented as graphics objects on copper layers. KiCAD does not support curved traces. 
+* **Modern:** Traces are drawn in a modern style but with roughly the same topology as the original.
+* **FlattenedBeziers:** An attempt to "fake" curved traces in KiCAD by partitioning the curves into small line segments and using the wire fillet feature introduced in KiCAD 6. A work in progress.
 
 
 
@@ -31,12 +31,6 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 
 
-### "Modern" reproduction
-
-The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, a `Modern` branch is planned.
-
-
-
 # Open Hardware License
 
- These source files are Copyright © 2022 by Robert Jacobson. They are distributed under the terms of the CERN Open Hardware – Permissive license, also called the CERN-OHL-P v2 license. See [LICENSE.txt](LICENSE.txt) for details. 
+These source files are Copyright © 2022 by Robert Jacobson. They are distributed under the terms of the CERN Open Hardware – Permissive license, also called the CERN-OHL-P v2 license. See [LICENSE.txt](LICENSE.txt) for details. 

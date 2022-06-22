@@ -14,14 +14,6 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 
 
-## Remaining work to do
-
-* [ ] Jumpers on the front of the PCB
-* [ ] Vias
-* [ ] "Modern" version
-
-
-
 ## Other interesting things
 
 ### Micro Switch SD Series model E footprint and symbol
@@ -33,10 +25,10 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 ### "Modern" reproduction
 
-The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, a `Modern` branch is planned.
+The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, look at the `Modern` branch.
 
 
 
 # Open Hardware License
 
- These source files are Copyright © 2022 by Robert Jacobson. They are distributed under the terms of the CERN Open Hardware – Permissive license, also called the CERN-OHL-P v2 license. See [LICENSE.txt](LICENSE.txt) for details. 
+These source files are Copyright © 2022 by Robert Jacobson. They are distributed under the terms of the CERN Open Hardware – Permissive license, also called the CERN-OHL-P v2 license. See [LICENSE.txt](LICENSE.txt) for details. 

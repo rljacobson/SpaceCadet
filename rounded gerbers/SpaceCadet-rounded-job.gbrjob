@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5-0)"
     },
-    "CreationDate": "2022-06-24T20:58:36-04:00"
+    "CreationDate": "2022-06-24T21:01:45-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "SpaceCadet",
-      "GUID": "53706163-6543-4616-9465-742e6b696361",
+      "Name": "SpaceCadet-rounded",
+      "GUID": "53706163-6543-4616-9465-742d726f756e",
       "Revision": "rev?"
     },
     "Size": {
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "SpaceCadet-F_Cu.gbr",
+      "Path": "SpaceCadet-rounded-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-B_Cu.gbr",
+      "Path": "SpaceCadet-rounded-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-F_Silkscreen.gbr",
+      "Path": "SpaceCadet-rounded-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-B_Silkscreen.gbr",
+      "Path": "SpaceCadet-rounded-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-F_Mask.gbr",
+      "Path": "SpaceCadet-rounded-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SpaceCadet-B_Mask.gbr",
+      "Path": "SpaceCadet-rounded-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SpaceCadet-Edge_Cuts.gbr",
+      "Path": "SpaceCadet-rounded-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-F_Fab.gbr",
+      "Path": "SpaceCadet-rounded-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SpaceCadet-B_Fab.gbr",
+      "Path": "SpaceCadet-rounded-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }

@@ -2,13 +2,26 @@
 
 This repo contains [KiCAD](https://www.kicad.org/) source files and generated gerber files for the ["Space Cadet" keyboard](https://en.wikipedia.org/wiki/Space-cadet_keyboard), reverse engineered from reference photos in May 2022. To my knowledge, this is the first and only reproduction of this keyboard in EDA form.
 
-![SpaceCadetPCBLayout](imgs/SpaceCadetPCBLayout.png)
+### Variants
+
+The board comes in three flavors: 
+
+1. **Main branch:** An attempt at a faithful reproduction of the historic hand-drawn PCB. ![PCB Layout Historic](imgs/SpaceCadetPCBLayoutHistoric.png)
+2. **Modern:** The board retains the original topology, and the footprints are in the original positions, but everything is drawn in the style of a modern PCB. 
+   ![SpaceCadetPCBLayout](imgs/SpaceCadetPCBLayout.png)
+3. **Modern Rounded:** The modern version processed with the *Round Tracks* plugin for KiCAD, which gives the board a hand-drawn aesthetic. ![SpaceCadetPCBLayoutRounded](imgs/SpaceCadetPCBLayoutRounded.png)
+
+Variations #2 and #3 are in the Modern branch.
+
+
+
+### Reference Material
 
 The design files were reverse engineered from a variety of reference materials. As quality reference materials were hard to get ahold of, I also include them here:
 
 ![PCB Top Strip](imgs/PCB%20Top%20Strip.jpg)
 
-![PCB Back Ultimate](imgs/PCB%20Back%20Ultimate.jpg)
+![PCB Back](imgs/PCB%20Back.jpg)
 
 I am unable to find a reference for the entire front of the PCB without the key switches and panel obscuring most of the board. From the traces and vias visible on the back of the PCB,  there are clearly many jumper wires on the front of the PCB the locations of which are easily determined.
 
@@ -20,12 +33,6 @@ I am unable to find a reference for the entire front of the PCB without the key 
 
 * [MicroSwitch_SD_Series_E.kicad_sym](MicroSwitch_SD_Series_E.kicad_sym)
 * [MicroSwitch_SD_Series_E.kicad_mod](MicroSwitch_SD_Series_E.kicad_mod)
-
-
-
-### "Modern" reproduction
-
-The goal was to reproduce the look and feel of the original keyboard. If you would prefer a board with more modern traces, look at the `Modern` branch.
 
 
 

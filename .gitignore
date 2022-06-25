@@ -11,3 +11,4 @@
 # *.png
 # *.jpg
 *.afphoto
+.DS_Store

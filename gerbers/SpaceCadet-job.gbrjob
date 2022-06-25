@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5-0)"
     },
-    "CreationDate": "2022-06-13T02:35:29-04:00"
+    "CreationDate": "2022-06-24T21:41:21-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -47,6 +47,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "SpaceCadet-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SpaceCadet-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
       "Path": "SpaceCadet-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
@@ -79,24 +89,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -57,7 +57,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
@@ -25715,13 +25715,22 @@
   (gr_rect (start 375.31 182.445) (end 392.25 182.075) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp fed904be-8bd2-463a-9707-f31ce00c5a42))
   (gr_rect (start 246.64 222.48) (end 247.01 237.8) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp ff6e1852-7495-4ddb-9301-3e289f94b2a2))
   (gr_rect (start 64.25 81.3) (end 533.25 247.9) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e0092285-3297-440d-b28a-076bf5f4e39d))
-  (gr_text "Reproduction of historic hand-drawn board." (at 227.41 71.08) (layer "Cmts.User") (tstamp 31dbeb5a-0fac-426b-86a4-1bdf305c4a94)
+  (gr_text "Reproduction of historic hand-drawn board." (at 301.03 49.66) (layer "Cmts.User") (tstamp 31dbeb5a-0fac-426b-86a4-1bdf305c4a94)
     (effects (font (size 5 5) (thickness 0.5)))
   )
   (gr_text "Track extends to edge of \nthe board at this point. ——>" (at 18.36 235.7) (layer "B.Fab") (tstamp 18039b40-585d-40d3-a3cf-cc8de57c796b)
     (effects (font (size 2 2) (thickness 0.3)) (justify left))
   )
-  (gr_text "The board is designed as a two-sided board. However, the historic board is one-\nsided. If there is no additional fabrication cost:\n  * Copper only on the BACK side. Through-hole plating is not required anywhere.\n  * Solder mask only on BACK side.\n  * Silkscreen on BOTH sides." (at 348.32 70.27) (layer "F.Fab") (tstamp c3c3df01-ed97-4a3f-8616-a3e6c51765f7)
+  (gr_text "Back solder mask:\nBack silkscreen:\nFront silkscreen:\n\n" (at 376.53 65.37) (layer "F.Fab") (tstamp 0304eacd-0cfc-45f7-97d3-12fb31eec714)
+    (effects (font (size 2 2) (thickness 0.3)) (justify right))
+  )
+  (gr_text "Green\nBlack\nBlack or Blue\n\n" (at 377.18 65.37) (layer "F.Fab") (tstamp 2ea6453e-0aa4-4e76-b587-1390b777afdc)
+    (effects (font (size 2 2) (thickness 0.3)) (justify left))
+  )
+  (gr_text "Colors" (at 365.69 57.32) (layer "F.Fab") (tstamp bf4e9c2d-f5c9-4ab4-947e-8c2f1205b5b2)
+    (effects (font (size 2 2) (thickness 0.3)) (justify left))
+  )
+  (gr_text "The board is designed to optionally be a two-sided board. However, \nthe historic board is one-sided. Please manufacture a one-sided \nboard according to the following:\n  * Copper only on the BACK side. Through-hole plating is not \n    required anywhere.\n  * Solder mask only on BACK side.\n  * Silkscreen on BOTH sides." (at 211.72 66.96) (layer "F.Fab") (tstamp c3c3df01-ed97-4a3f-8616-a3e6c51765f7)
     (effects (font (size 2 2) (thickness 0.3)) (justify left))
   )
 
@@ -32626,6 +32635,12 @@
       52d45877-0a38-4656-9488-c377763d3001
       767d24f8-f7e2-4f50-b343-2fa2e71e0a62
       8f1086bd-40e8-497e-9923-9af690169de3
+    )
+  )
+  (group "" (id bd9503b1-0168-42e8-a901-2b3ca69df880)
+    (members
+      0304eacd-0cfc-45f7-97d3-12fb31eec714
+      2ea6453e-0aa4-4e76-b587-1390b777afdc
     )
   )
   (group "" (id d302cd4c-a925-496e-bdbe-7a371e6db833)

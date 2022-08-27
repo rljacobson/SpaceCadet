@@ -2,6 +2,14 @@
 
 This repo contains [KiCAD](https://www.kicad.org/) source files and generated gerber files for the ["Space Cadet" keyboard](https://en.wikipedia.org/wiki/Space-cadet_keyboard), reverse engineered from reference photos in May 2022. To my knowledge, this is the first and only reproduction of this keyboard in EDA form.
 
+<hr>
+
+**Thank you, [PCBWay](https://www.pcbway.com)! They have kindly offered to sponsor the production of a handful of these PCBs. A video review is coming soon!** 
+
+[![PCBWay: PCB Prototype the Way Way](imgs/pcbway.png)](https://www.pcbway.com)
+
+<hr>
+
 ### Variants
 
 The board comes in three flavors: 
